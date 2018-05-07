@@ -11,17 +11,6 @@
 class OCRPlugin extends Omeka_Plugin_AbstractPlugin
 {
     /**
-     * @var array Hooks for the plugin.
-     */
-    protected $_hooks = array(
-        'config_form',
-        'public_items_show',
-        'admin_items_show',
-        'public_items_browse_each',
-        'admin_items_browse_simple_each'
-    );
-
-    /**
      * @var array Filters for the plugin.
      */
     protected $_filters = array('admin_navigation_main');
